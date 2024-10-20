@@ -20,6 +20,7 @@ p, li{
     line-height: normal;
     font-weight: normal;
     cursor: pointer;
+    text-align: center;
 }
 h3{
     font-size: 36px;
@@ -52,4 +53,72 @@ h3{
     display: flex;
     gap: 3rem;
     justify-content: space-evenly;
+}
+
+/* banner section style */
+.explore-your-travel{
+    background-image: linear-gradient(
+        180deg,
+        rgba(19, 19, 24, 0.8) 0%,
+        rgba(19, 19, 24, 0) 100%
+    ), url('Images/Group\ 13\ \(1\)\ \(1\).png');
+   padding: 7rem 0;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.explore-container h3{
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.explore-container p{
+    color: white;
+    opacity: 0.6;
+    font-size: 18px;
+    line-height: 26px;
+    width: 676px;
+    padding: 1.5rem 0;
+    margin: auto;
+}
+
+.travel-inputs{
+    margin-top: 2rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(4px);
+}
+
+input, select{
+    width: 174px;
+    height: 50px;
+    padding: 0 0.5rem;
+    border-radius: 8px;
+    border: none;
+    margin: 0 1rem;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn-primary{
+    width: 174px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    background: rgb(255, 84, 0);
+    gap: 8px;
+    cursor: pointer;
+    border: 1px solid rgb(255, 84, 0);
 }
